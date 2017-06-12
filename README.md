@@ -14,3 +14,27 @@ public enum UIDatePickerMode : Int {
 } 
 
 dateMode为自带枚举类型 UIDatePickerMode 详细格式看上面解释
+XZDatePickerView使用：
+let datePicker = XZDatePickerView()
+  
+datePicker.minimumDate      /// 最小时间点
+
+datePicker.maximumDate      /// 最大时间点
+
+datePicker.sureAction       /// 确定按钮回调事件   
+
+    /// 确定回调事件
+    var sureAction:(parament:AnyObject,date:NSDate)->() = ({_ in
+        
+    })
+    
+datePicker.cancelAction     /// 取消回调事件    
+
+    /// 取消回调事件
+    var cancelAction:(parament:AnyObject,date:NSDate)->() = ({_ in
+        
+    })
+    
+datePicker.frame            ///设为superView.bounds
+
+self.superView.addsubView(datePicker)      ///添加到父视图
