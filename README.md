@@ -1,12 +1,5 @@
 <<<<<<< HEAD
 # XZPictureLookUp
-# XZPictureLookUp
-# XZPictureLookUp
-# XZPictureLookUp
-# XZPictureLookUp
-# XZPictureLookUp
-# XZPictureLookUp
-# XZPictureLookUp
 =======
 # datePicture
 时间选择器 swift
